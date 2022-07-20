@@ -1,0 +1,84 @@
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Oswald&family=Poppins&display=swap');
+    body {
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Lobster', cursive;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+    }
+    /* Global CSS start */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    /* top banner css */
+    
+    section.topbanner-area {
+        padding: 5% 10%;
+    }
+    
+    .heading-width {
+        display: flex;
+        background: #5a6d8a;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+    
+    .heading-describe {
+        width: 50%;
+        margin-left: 7%;
+    }
+    
+    .heading-describe h1 {
+        font-size: 3rem;
+        line-height: 1;
+    }
+    
+    .heading-describe p {
+        font-size: 1rem;
+        margin: 3% 0;
+    }
+    
+    a.btn {
+        background-color: rgb(194, 16, 16);
+        padding: 20px 40px;
+        color: #fff;
+        border-radius: 5px;
+        display: inline-block;
+    }
+    
+    i.fa-solid.fa-arrow-right {
+        margin-left: 8px;
+        animation-name: arrowslide;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes arrowslide {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(20px);
+        }
+    }
+    
+    .player-img {
+        width: 50%;
+    }
+    
+    .player-img img {
+        width: 85%;
+    }
+    /*  end top banner css */
